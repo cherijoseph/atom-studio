@@ -1,0 +1,21 @@
+node_modules/
+dist/
+coverage/
+.pnpm-store/
+.env
+.env.*
+data/
+exports/
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.log
+.DS_Store
+Thumbs.db
+
+# Scene exports can contain private structures and embedded images.
+*.json
+!/package.json

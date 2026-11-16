@@ -1,0 +1,22 @@
+{
+  "name": "atom-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A standalone browser editor for 3D atomic structure diagrams",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "packageManager": "pnpm@11.25.0",
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "node server.mjs",
+    "test": "node --test *.test.mjs"
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.10"
+  }
+}
